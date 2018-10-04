@@ -62,6 +62,12 @@
                                 </a>
                             </div>
                         </div>
+                        <p class="or-social">Or Use Social Login</p>
+                    <div class="row">
+                        <div id="googleButton" class="col-md-3 col-sm-6 col-xs-6">
+                            <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-lg waves-effect waves-light btn-block google">Google+</a>
+                        </div>
+                    </div>
                     </form>
                 </div>
             </div>
@@ -69,9 +75,5 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="col-md-6 col-sm-6 col-xs-6">
-        <a href="{{ route('social.redirect', ['provider' => 'google']) }}" class="btn btn-lg waves-effect waves-light btn-block google">Google+</a>
-    </div>
-</div>
+
 @endsection
