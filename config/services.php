@@ -36,9 +36,9 @@ return [
     ],
 
     'google' => [
-        'client_id'     => env('GOOGLE_CLIENT_ID'),
-        'client_secret' => env('GOOGLE_CLIENT_SECRET'),
-        'redirect'      => env('GOOGLE_REDIRECT')
+        'client_id'     => '425766350869-4df9oo2okhp76l9t4omh19upjl74nnc1.apps.googleusercontent.com',
+        'client_secret' => 'Hb794P_33lEaPw_TF9Bxo_vE',
+        'redirect'      => 'http://bookmarxmanager.herokuapp.com/callback'
     ],
 
 ];
