@@ -27,7 +27,7 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="navbar-brand" href="{{ url('/') }}">
-                            {{ config('app.name', 'Laravel') }}
+                            {{ config('app.name', 'BookMarxManager') }}
                         </a>
                     </li>
                     <li class="nav-item">
