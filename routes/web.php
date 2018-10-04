@@ -28,3 +28,7 @@ Route::post('/bookmarks/store', 'BookmarksController@store')->name('bookmarks.st
 Route::put('/bookmark/update/{id}', 'BookmarksController@update');
 
 Route::delete('/bookmark/delete/{id}', 'BookmarksController@destroy');
+
+
+Route::get('/redirect', 'Auth\LoginController@redirectToProvider')->name('social.redirect');
+Route::get('/callback', 'Auth\LoginController@handleProviderCallback');
